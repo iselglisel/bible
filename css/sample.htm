@@ -1,0 +1,73 @@
+<div id="accordion2" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+	<!-- First accordion menu item-->
+    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-header-active ui-state-active ui-accordion-icons" role="tab" id="ui-accordion-accordion2-header-0" aria-controls="ui-accordion-accordion2-panel-0" aria-selected="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Step One</h3>
+    <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-accordion-accordion2-panel-0" aria-labelledby="ui-accordion-accordion2-header-0" role="tabpanel" aria-expanded="true" aria-hidden="false" style="display: block; height: 57.79999923706055px;">
+		<p>
+        	Learn jQuery!
+        </p>
+	</div>
+    
+	<!-- Second accordion menu item-->
+    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion2-header-1" aria-controls="ui-accordion-accordion2-panel-1" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Step Two</h3>
+    <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion2-panel-1" aria-labelledby="ui-accordion-accordion2-header-1" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none; height: 57.79999923706055px;">
+    	<p>
+        	Learn jQuery UI!
+        </p>
+    </div>
+    
+    <!-- Third accordion menu item-->
+    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion2-header-2" aria-controls="ui-accordion-accordion2-panel-2" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Step Three</h3>
+    <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion2-panel-2" aria-labelledby="ui-accordion-accordion2-header-2" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none; height: 57.79999923706055px;">
+    	<p>
+        	WRITE EPIC CODE!!!
+        </p>
+    </div>
+</div>
+
+
+
+<div id="customAccordion2" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+    <!-- First accordion menu item-->
+    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-accordion-customAccordion2-header-0" aria-controls="ui-accordion-customAccordion2-panel-0" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Custom Feature #1</h3>
+    <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-customAccordion2-panel-0" aria-labelledby="ui-accordion-customAccordion2-header-0" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+        <p>
+           Allow collapsible menus - including the active one.
+        </p>
+    </div>
+    
+    <!-- Second accordion menu item-->
+    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top ui-corner-all" role="tab" id="ui-accordion-customAccordion2-header-1" aria-controls="ui-accordion-customAccordion2-panel-1" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Custom Feature #2</h3>
+    <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-accordion-customAccordion2-panel-1" aria-labelledby="ui-accordion-customAccordion2-header-1" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+        <p>
+            Sets active panel to false, making the menu start out with all menu items closed.
+        </p>
+    </div>
+    
+    <!-- Third accordion menu item-->
+    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-customAccordion2-header-2" aria-controls="ui-accordion-customAccordion2-panel-2" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Custom Feature #3</h3>
+    <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-customAccordion2-panel-2" aria-labelledby="ui-accordion-customAccordion2-header-2" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+        <p>
+            Make each inside panel only as tall as it's content requires.
+        </p>
+    </div>
+</div>
+
+
+
+<input type="button" id="btnSlideToggle2" value="Slide Toggle">
+
+<div id="slideMe2" style="height: 80px; width: auto; background-color: silver; display: block;">
+                    This content will appear and disappear when the div is slid in and out.
+                </div>
+
+<script type="text/javascript">
+                    $('#btnSlideUp2').click(function() {
+                        $('#slideMe2').slideUp('slow');
+                    });
+                    $('#btnSlideDown2').click(function() {
+                        $('#slideMe2').slideDown();
+                    });
+                    $('#btnSlideToggle2').click(function() {
+                        $('#slideMe2').slideToggle('fast');
+                    });
+                </script>

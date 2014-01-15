@@ -1,0 +1,54 @@
+body {
+	background-image: url('asd.jpg');
+	font-family: Century Gothic;
+	color: White;
+}
+
+#wrapper {
+margin: 0 auto;
+padding: 82px 10px 0;
+width: 70%;
+}
+
+select#books {
+	width:120px;
+}
+select#chapters {
+	width:120px;
+
+}
+select:hover {
+	background-color: gray;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 10px;
+
+}
+
+select#verses {
+	width:120px;
+
+}
+input[type=search] {
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-bottom: 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 35px;
+	height:50px;
+	width: 160px;
+}
+
+#verse_text {
+	margin-top: 50px;
+	font-size: 18px;
+	text-align: fixed;
+
+}
+.thumbnail{
+	overflow-y:auto;
+}
+.Error{
+	color:red;
+}
